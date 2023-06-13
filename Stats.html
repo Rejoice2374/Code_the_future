@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Football Heritage</title>
+
+    <!-- ICONSCOUT CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- Google font Montserrat -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,900;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/Stats.css">
+  </head>
+
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <img src="./assets/Logo.png" alt="logo" />
+
+        <ul class="nav__links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="./Stats.html">Stats</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-list-ul"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></i></button>
+      </div>
+    </nav>
+
+
+    
+    <section class="premier__league">
+      <div class="league__table">
+        <h2>Premier League Table</h2>
+        <div class="standings">
+          <table>
+            <thead>
+              <tr class="table_head">
+                <th>
+                  <span class="short">P</span>
+                  <span class="long">Position</span>
+                </th>
+                <th>
+                  <span class="short">Team</span>
+                  <span class="long">Team</span>
+                </th>
+                <th>
+                  <span class="short">P</span>
+                  <span class="long">Played</span>
+                </th>
+                <th>
+                  <span class="short">W</span>
+                  <span class="long">Won</span>
+                </th>
+                <th>
+                  <span class="short">D</span>
+                  <span class="long">Drawn</span>
+                </th>
+                <th>
+                  <span class="short">L</span>
+                  <span class="long">Position</span>
+                </th>
+                <th>
+                  <span class="short">GD</span>
+                  <span class="long">Goal Difference</span>
+                </th>
+                <th>
+                  <span class="short">Pts</span>
+                  <span class="long">Points</span>
+                </th>
+              </tr>
+            </thead>
+
+            <tr>
+              <th>
+                <span>1</span>
+              </th>
+              <td>
+                <span class="short">Man City</span>
+                <span class="long">Manchester City</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>28</span>
+              </td>
+              <td>
+                <span>5</span>
+              </td>
+              <td>
+                <span>5</span>
+              </td>
+              <td>
+                <span>61</span>
+              </td>
+              <td>
+                <span>89</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>2</span>
+              </th>
+              <td>
+                <span class="short">Arsenal</span>
+                <span class="long">Arsenal</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>26</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>45</span>
+              </td>
+              <td>
+                <span>84</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>3</span>
+              </th>
+              <td>
+                <span class="short">Man Utd</span>
+                <span class="long">Manchester United</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>23</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>9</span>
+              </td>
+              <td>
+                <span>15</span>
+              </td>
+              <td>
+                <span>75</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>4</span>
+              </th>
+              <td>
+                <span class="short">Newcastle</span>
+                <span class="long">Newcastle United</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>19</span>
+              </td>
+              <td>
+                <span>14</span>
+              </td>
+              <td>
+                <span>5</span>
+              </td>
+              <td>
+                <span>35</span>
+              </td>
+              <td>
+                <span>71</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>5</span>
+              </th>
+              <td>
+                <span class="short">Liverpool</span>
+                <span class="long">Liverpool</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>19</span>
+              </td>
+              <td>
+                <span>10</span>
+              </td>
+              <td>
+                <span>9</span>
+              </td>
+              <td>
+                <span>28</span>
+              </td>
+              <td>
+                <span>67</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>6</span>
+              </th>
+              <td>
+                <span class="short">Brighton</span>
+                <span class="long">Brighton & Hove Albion</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>18</span>
+              </td>
+              <td>
+                <span>8</span>
+              </td>
+              <td>
+                <span>12</span>
+              </td>
+              <td>
+                <span>19</span>
+              </td>
+              <td>
+                <span>62</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>7</span>
+              </th>
+              <td>
+                <span class="short">Aston Villa</span>
+                <span class="long">Aston Villa</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>18</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>13</span>
+              </td>
+              <td>
+                <span>5</span>
+              </td>
+              <td>
+                <span>61</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>8</span>
+              </th>
+              <td>
+                <span class="short">Tottenham</span>
+                <span class="long">Tottenham Hotspur</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>18</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>14</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>60</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>9</span>
+              </th>
+              <td>
+                <span class="short">Brentford</span>
+                <span class="long">Brentford</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>15</span>
+              </td>
+              <td>
+                <span>14</span>
+              </td>
+              <td>
+                <span>9</span>
+              </td>
+              <td>
+                <span>12</span>
+              </td>
+              <td>
+                <span>59</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>10</span>
+              </th>
+              <td>
+                <span class="short">Fulham</span>
+                <span class="long">Fulham</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>15</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>16</span>
+              </td>
+              <td>
+                <span>2</span>
+              </td>
+              <td>
+                <span>52</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>11</span>
+              </th>
+              <td>
+                <span class="short">C. Palace</span>
+                <span class="long">Crystal Palace</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>12</span>
+              </td>
+              <td>
+                <span>15</span>
+              </td>
+              <td>
+                <span>-9</span>
+              </td>
+              <td>
+                <span>45</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>12</span>
+              </th>
+              <td>
+                <span class="short">Chelsea</span>
+                <span class="long">Chelsea</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>16</span>
+              </td>
+              <td>
+                <span>-9</span>
+              </td>
+              <td>
+                <span>44</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>13</span>
+              </th>
+              <td>
+                <span class="short">Wolves</span>
+                <span class="long">Wolverhampton Wanderers</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>8</span>
+              </td>
+              <td>
+                <span>19</span>
+              </td>
+              <td>
+                <span>-27</span>
+              </td>
+              <td>
+                <span>41</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>14</span>
+              </th>
+              <td>
+                <span class="short">West Ham</span>
+                <span class="long">West Ham United</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>20</span>
+              </td>
+              <td>
+                <span>-13</span>
+              </td>
+              <td>
+                <span>40</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>15</span>
+              </th>
+              <td>
+                <span class="short">Bournemouth</span>
+                <span class="long">AFC Bournemouth</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>21</span>
+              </td>
+              <td>
+                <span>-34</span>
+              </td>
+              <td>
+                <span>39</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>16</span>
+              </th>
+              <td>
+                <span class="short">Nottm Forest</span>
+                <span class="long">Nottingham Forest</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>9</span>
+              </td>
+              <td>
+                <span>11</span>
+              </td>
+              <td>
+                <span>18</span>
+              </td>
+              <td>
+                <span>-30</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>17</span>
+              </th>
+              <td>
+                <span class="short">Everton</span>
+                <span class="long">Everton</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>8</span>
+              </td>
+              <td>
+                <span>12</span>
+              </td>
+              <td>
+                <span>18</span>
+              </td>
+              <td>
+                <span>-23</span>
+              </td>
+              <td>
+                <span>36</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>18</span>
+              </th>
+              <td>
+                <span class="short">Leicester</span>
+                <span class="long">Leicester City</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>9</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>22</span>
+              </td>
+              <td>
+                <span>-17</span>
+              </td>
+              <td>
+                <span>34</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>19</span>
+              </th>
+              <td>
+                <span class="short">Leeds</span>
+                <span class="long">Leeds United</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>10</span>
+              </td>
+              <td>
+                <span>21</span>
+              </td>
+              <td>
+                <span>-30</span>
+              </td>
+              <td>
+                <span>31</span>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                <span>20</span>
+              </th>
+              <td>
+                <span class="short">Sth</span>
+                <span class="long">Southampton</span>
+              </td>
+              <td>
+                <span>38</span>
+              </td>
+              <td>
+                <span>6</span>
+              </td>
+              <td>
+                <span>7</span>
+              </td>
+              <td>
+                <span>25</span>
+              </td>
+              <td>
+                <span>-37</span>
+              </td>
+              <td>
+                <span>25</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container footer__container">
+          <div class="footer__1">
+              <a href="index.html" class="footer__logo"><img src="./assets/Logo.png"></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident perferendis dolorem enim atque ipsa dolore voluptates!</p>
+          </div>
+  
+          <div class="footer__2">
+              <h4>Permalinks</h4>
+              <ul class="permalinks">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="news.html">News</a></li>
+                  <li><a href="Stats.html">Stats</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+          </div>
+          
+          <div class="footer__3">
+              <h4>Privacy</h4>
+              <ul class="privacy">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms and conditions</a></li>
+                  <li><a href="#">Refund Policy</a></li>
+              </ul>
+          </div>
+  
+          <div class="footer__4">
+              <h4>Contact Us</h4>
+              <div>
+                  <p>+234 704 5908 981</p>
+                  <p>projectparadise2374@gmail.com</p>
+              </div>
+  
+              <ul class="footer__socials">
+                  <li><a href="https://www.facebook.com/adeboye.rejoice"><i class="uil uil-facebook-f"></i></a></li>
+                  <li><a href="https://www.instagram.com/favochino/"><i class="uil uil-instagram-alt"></i></a></li>
+                  <li><a href="https://twitter.com/RejoiceAdeboye"><i class="uil uil-twitter"></i></a></li>
+                  <li><a href="www.linkedin.com/in/rejoice-adeboye-272902189"><i class="uil uil-linkedin-alt"></i></a></li>
+              </ul>
+          </div>
+  
+      </div>
+      <div class="footer__copyright">
+          <small>Copyright &copy; FOOTBALL HERITAGE</small>
+      </div>
+  </footer>
+  </body>
+</html>

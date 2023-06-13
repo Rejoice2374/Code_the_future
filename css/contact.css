@@ -1,0 +1,142 @@
+.contacts {
+  background: var(--color-light);
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 4rem;
+  height: 36rem;
+  margin: 12rem 4rem;
+  border-radius: 1rem;
+}
+
+aside {
+  background: var(--color-bg1);
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+  bottom: 10rem;
+  align-items: center;
+}
+
+.aside__img {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+aside h2 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+aside p {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.contact__details li {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 3rem;
+}
+
+.socials a {
+  background: var(--color-light);
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  transition: var(--transtition);
+}
+
+.socials a:hover {
+  background: transparent;
+}
+
+/******** FORM ********/
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+
+form h3 {
+  font-size: 1.2rem;
+  color: var(--color-bg);
+}
+
+form p {
+  font-size: 0.9rem;
+  color: var(--color-bg3);
+}
+
+.name {
+  display: flex;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--color-bg1);
+  color: var(--color-white);
+}
+
+form .btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+
+/******** MEDIAQ TABLETS ********/
+@media screen and (max-width: 1024px) {
+  .contacts {
+    gap: 1.5rem;
+    margin-top: 6rem;
+    height: auto;
+    padding: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  aside {
+    width: 100%;
+    padding: 1.5rem;
+    bottom: 0;
+  }
+
+  aside p,
+  li {
+    font-size: 0.7rem;
+  }
+
+  form {
+    align-self: center;
+    margin-right: 1.5rem;
+  }
+
+  /******** MEDIA-Q PHONES ********/
+  @media screen and (max-width: 600px) {
+    .contacts {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+      margin-top: 5rem;
+      padding: 0;
+    }
+
+    form {
+      margin: 0 1.5rem 1rem;
+    }
+
+    .name {
+      flex-direction: column;
+    }
+  }
+}

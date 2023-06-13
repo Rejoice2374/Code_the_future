@@ -1,0 +1,30 @@
+.success__container {
+  width: 36rem;
+  height: 20rem;
+  background: var(--color-bg);
+  padding: 4rem;
+  margin: 8rem auto;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-radius: 2rem;
+  place-items: center;
+}
+
+.success__container a {
+  background: var(--color-bg2);
+  padding: 2rem;
+  color: var(--color-bg);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+  border-radius: 2rem;
+}
+
+.success__container a:hover {
+  background: transparent;
+  color: var(--color-bg2);
+  border-color: var(--color-bg2);
+}

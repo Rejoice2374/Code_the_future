@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #1d2088;
+  --color-success: #00bf8e;
+  --color-warning: #f7c94b;
+  --color-danger: #4a0895;
+  --color-danger-variant: rgba(247, 88, 66, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(199, 255, 199, 0.7);
+  --color-black: #000;
+  --color-bg: #ab21ab;
+  --color-bg1: #88ad4b;
+  --color-bg2: #fad8f8;
+  --color-bg3: #ec59e2;
+
+  --container-width-lg: 80%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+
+  --transition: all 400ms ease;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  color: var(--color-black);
+  background: var(--color-bg2);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--color-bg1);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+  margin: auto;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--color-black);
+  border-color: var(--color-bg2);
+}
+
+/* ======== NAVBAR ======= */
+nav {
+  background: var(--color-bg1);
+  width: 100vw;
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.nav__container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+nav img {
+  width: 196px;
+  height: auto;
+  margin: 0.6rem auto;
+  object-fit: cover;
+}
+
+/* ======== FORM ======= */
+form {
+  align-items: center;
+}
+
+.form__container {
+  width: 36rem;
+  height: 28rem;
+  background: var(--color-bg);
+  padding: 4rem;
+  margin-top: 8rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-radius: 2rem;
+}
+
+form p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-black);
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  place-items: center;
+}
+
+.name input {
+  width: 70%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--color-bg2);
+  color: var(--color-black);
+}
+
+.remb__me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remb__me p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+form .btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
